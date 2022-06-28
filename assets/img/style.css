@@ -1,0 +1,212 @@
+body{
+    background-image:linear-gradient(rgb(191, 0, 0), rgb(0, 0, 0))
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.título{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(34, 27, 27);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+p{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: fit-content;
+}
+
+.subtítulo{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(34, 27, 27);
+}
+
+h5{
+    text-align: center;
+    color: white;
+}
+
+div img{
+    width: 240px;
+}
+
+ul{
+    margin: 20px;
+    list-style: none;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+tr{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tarjeta{
+    width: 300px;
+    margin: 10px;
+    background-color: rgb(64, 51, 51);
+}
+
+h4{
+    color: white;
+    text-align: center;
+}
+
+.tarjeta__img{
+    width: 100%;
+    
+}
+
+.contenedorCajas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    align-content: space-evenly;
+    justify-content: space-between;
+}
+.caja{
+    width: 300px;
+    background-color: rgb(64, 51, 51);
+    /*padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;*/
+    padding: 20px 30px 20px 30px;
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.caja4{
+    padding: 20px 330px 20px 30px;
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 8px;
+    margin: 10px;
+    transform: translate(20px);
+}
+
+
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(64, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: red;
+}
+.navbar ul li{
+    margin-top: 20px;
+    padding: 10px;
+    color: red;
+    font-size: 24px;
+
+}
+header{
+    width: 30%;
+}
+
+
+.contactoFondo{
+    background-color: crimson;
+
+}
+
+.horariodiaTurno{
+    text-align: left;
+}
+
+table{
+    background-color: rgb(93, 31, 31);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center ;
+}
+
+.logo{
+    display: flex;
+    size: 2px;
+}
+
+.h6{
+    color: white;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.horarioSolicitado{
+    font-size: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.botonEnviar{
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+.botonEnviar:hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px) {
+    form{
+        width: 100%;
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../assets/img/style.css">
+</head>
+<body class="contactoFondo">
+    <header></header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+            <li><a href="./historia.html">Historia</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./ubicacion.html">Ubicacion</a></li>
+            <li><a href="./inicio.html">Inicio</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="form">
+            <h2>Contacto</h2>
+            <input type="text" name="Nombre" id="Nombre" 
+            placeholder="Nombre y Apellido" required>
+            <input type="text" name="Edad" id="Edad"
+            placeholder="Edad">
+            <input type="text" name="Número de teléfono" id="Número de teléfono" 
+            placeholder="Número de teléfono" required>
+            <input type="text" name="Instagram" id="Instagram" 
+            placeholder="Instagram" required>
+            <br>
+            <div>
+            <h5 class="horariodiaTurno">Día y horario del turno</h5>
+            <input type="datetime-local" name="disponibilidad horaria" id="disponibilidad horaria" placeholder="disponibilidad horaria">
+            <p class="horarioSolicitado">Puedo aceptar un turno en
+            un día y horario similar al solicitado</p>
+            <input type="checkbox" name="Puedo aceptar un turno en un día y horario similar al solicitado" id="">
+            </div>
+            <br>
+            <div>
+            <select name="servicio a realizar">
+                <option value="Corte">Corte</option>
+                <option value="Barba">Barba</option>
+                <option value="Corte y Barba">Corte y Barba</option>
+                <option value="Claritos y Corte">Claritos y Corte</option>
+                <option value="Global y Corte">Global y Corte</option>
+            </select>
+            </div>
+                <br>
+            <div>
+            <textarea name="Notas para tener en cuenta" id="" cols="30" rows="10">Información extra (opcional)</textarea>
+            </div>
+           <br>
+            <input class="botonEnviar" type="submit" value="Enviar">
+        </form>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+        <h5>©2022 Teo Severini, todos los derechos reservados</h5>
+    </footer>
+</body>
+</html>
