@@ -83,6 +83,7 @@ h4{
     align-content: space-evenly;
     justify-content: space-between;
 }
+
 .caja{
     width: 300px;
     background-color: rgb(64, 51, 51);
@@ -96,7 +97,19 @@ h4{
     border-style: solid;
     border-radius: 8px;
     margin: 10px;
+    transition:all 1s
 }
+
+.caja1:hover{
+    padding: 60px;
+}
+.caja2:hover{
+    padding: 60px
+}
+.caja3:hover{
+    padding: 60px
+}
+
 
 .caja4{
     padding: 20px 330px 20px 30px;
@@ -105,9 +118,13 @@ h4{
     border-style: solid;
     border-radius: 8px;
     margin: 10px;
-    transform: translate(20px);
+    transform: translate(600px);
+    transition: 1s;
 }
-
+.caja4:hover{
+    translate: (20px 20px) scale(2);
+    padding: 40px 365px 40px 60px;
+}
 
 
 .navbar{
